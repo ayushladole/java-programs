@@ -17,5 +17,7 @@ public class areaofrectangle {
 
         scan.close();
 
+        //Hello
+
     }
 }
