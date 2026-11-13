@@ -25,7 +25,7 @@ public class compoundIntCalc{
 
         a = principle*Math.pow((1+(r2/n)), n*t);
 
-        System.out.printf("The amount is: %.2f", a);
+        System.out.printf("The amount is: $%.2f", a);
 
         scan.close();
 
