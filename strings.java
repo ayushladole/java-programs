@@ -25,7 +25,7 @@ public class strings {
 
     String something = "Ayush";
 
-    char letter = something.charAt(4);
+    // char letter = something.charAt(4);
     // int a = something.indexOf("g");
     
     
