@@ -15,5 +15,6 @@ public class ternary_operator {
         String evenOrOdd = (number % 2 ==0) ? "Even" : "Odd";
 
         System.out.println("The number is " + evenOrOdd);
+        scan.close();
         }
 }
