@@ -14,14 +14,12 @@ public class day{
         
 
         switch(day){
-            case "" -> System.out.println("Day cant be empty!"); 
-            case "Monday" -> System.out.println("It is a weekday!");
-            case "Tuesday" -> System.out.println("It is a weekday!");
-            case "Wednesday" -> System.out.println("It is a weekday!");
-            case "Thursday" -> System.out.println("It is a weekday!");
-            case "Friday" -> System.out.println("It is a weekday!");
-            case "Saturday" -> System.out.println("It is a weekday!");
-            case "Sunday" -> System.out.println("It is a weekend!");
+            
+            case "Monday" ,"Tuesday" , "Wednesday" ,"Thursday" ,"Friday"
+             -> System.out.println("It is a weekday!");
+            case "Saturday" , "Sunday" -> System.out.println("It is a weekend!");
+
+            default -> System.out.println(day + " is not a day");
         }
 
         scan.close();
