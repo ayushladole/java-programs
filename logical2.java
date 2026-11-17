@@ -1,11 +1,11 @@
 public class logical2 {
     public static void main(String[] args) {
-        boolean a = true || false || false;
+        boolean a = true;
         System.out.println(a);
         boolean b = true && true;
         System.out.println(b);
 
-        boolean c = !(false && true && true);
+        boolean c = !(false);
         System.out.println(c);
 
         int num1 = 5;
