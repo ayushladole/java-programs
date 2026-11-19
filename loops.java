@@ -15,7 +15,22 @@ public class loops {
     for(j=0;j<=num;j++){
         System.out.println(j);
     }
+    int k=0;
+    
+    
+    while(k<5){
+        System.out.println(k);
 
+        k++;
+    }
+
+
+    int a = 0;
+
+    do{
+    System.out.println("HI");
+    a++;
+    }while(a<5);
     
 
     scan.close();
